@@ -1,7 +1,6 @@
-package com.VacationCalc.service;
+package com.vld.vacation.calc.service;
 
-import com.VacationCalc.exception.DateToBeforeFrom;
-import com.VacationCalc.exception.NotExistException;
+import com.vld.vacation.calc.exception.VacationCalcException;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -31,18 +30,19 @@ public class VacationService {
                 LocalDate.of(2023, 11, 6)));
     }
 
-    public Double calculateVacationPay(Double avgSalary, LocalDate from, LocalDate to) {
+    public Double calculateVacationPay(Double yearSalary, LocalDate from, LocalDate to) {
         if (to.isBefore(from)) {
-            throw new DateToBeforeFrom("Date \"to\" before \"from\"");
+            throw new VacationCalcException(String.format("'from' date (%s) can not be after 'to' date (%s)", from, to));
         }
         if (from.getYear() != 2023 || to.getYear() != 2023) {
-            throw new NotExistException("Production calendar does not exist");
+            throw new VacationCalcException("Production calendar does not exist");
         }
+
         long vacationDays = from.datesUntil(to.plusDays(1))
                 .filter(localDate -> !HOLIDAYS.contains(localDate))
                 .count();
 
-        double daySalary = 12 * avgSalary / Year.of(from.getYear()).length();
+        double daySalary = yearSalary / Year.of(from.getYear()).length();
         return vacationDays * daySalary;
     }
 }

@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="089e20f4-341c-49aa-83c3-d644c8faa7d4" name="Changes" comment="" />
+    <list default="true" id="089e20f4-341c-49aa-83c3-d644c8faa7d4" name="Changes" comment="version 1.0">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vld/vacation/calc/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vld/vacation/calc/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vld/vacation/calc/controller/VacationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vld/vacation/calc/controller/VacationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vld/vacation/calc/exception/VacationCalcException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vld/vacation/calc/exception/VacationCalcException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vld/vacation/calc/exception/handle/VacationCalcExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vld/vacation/calc/exception/handle/VacationCalcExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vld/vacation/calc/exception/model/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vld/vacation/calc/exception/model/ErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vld/vacation/calc/service/VacationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vld/vacation/calc/service/VacationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vld/vacation/calc/service/VacationServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vld/vacation/calc/service/VacationServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2PbaZStiCfILI3DWiQNHVHcKS1c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -18,11 +44,126 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "C:/projects2/VacationCalc",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "07abf8d8f0518345dab13bc445b4bd87"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.VacationCalc.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.VacationCalc.Application" />
+      <module name="VacationCalc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VacationServiceTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VacationCalc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vld.vacation.calc.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vld.vacation.calc.service" />
+      <option name="MAIN_CLASS_NAME" value="com.vld.vacation.calc.service.VacationServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VacationServiceTest.calculateDateToBeforeFrom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VacationCalc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.VacationCalc.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.VacationCalc.service" />
+      <option name="MAIN_CLASS_NAME" value="com.VacationCalc.service.VacationServiceTest" />
+      <option name="METHOD_NAME" value="calculateDateToBeforeFrom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VacationServiceTest.calculateVacationPay (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VacationCalc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vld.vacation.calc.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vld.vacation.calc.service" />
+      <option name="MAIN_CLASS_NAME" value="com.vld.vacation.calc.service.VacationServiceTest" />
+      <option name="METHOD_NAME" value="calculateVacationPay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VacationServiceTest.calculateVacationPay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VacationCalc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.VacationCalc.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.VacationCalc.service" />
+      <option name="MAIN_CLASS_NAME" value="com.VacationCalc.service.VacationServiceTest" />
+      <option name="METHOD_NAME" value="calculateVacationPay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="VacationCalc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vld.vacation.calc.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vld.vacation.calc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.VacationServiceTest (1)" />
+        <item itemvalue="JUnit.VacationServiceTest.calculateVacationPay (1)" />
+        <item itemvalue="JUnit.VacationServiceTest.calculateVacationPay" />
+        <item itemvalue="JUnit.VacationServiceTest.calculateDateToBeforeFrom" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,7 +172,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683728294387</updated>
+      <workItem from="1683728295716" duration="1885000" />
+      <workItem from="1683730228204" duration="1545000" />
+      <workItem from="1683734486407" duration="8837000" />
+      <workItem from="1683815300147" duration="9901000" />
+      <workItem from="1683835413144" duration="1961000" />
+      <workItem from="1683998830875" duration="184000" />
+      <workItem from="1684001360799" duration="311000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="version 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.0" />
   </component>
 </project>

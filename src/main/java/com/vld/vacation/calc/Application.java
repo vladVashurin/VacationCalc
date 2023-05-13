@@ -1,4 +1,4 @@
-package com.VacationCalc;
+package com.vld.vacation.calc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
